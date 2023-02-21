@@ -14,7 +14,7 @@ The CityMe project aims at creating a framework for mapping, exploring and analy
 
 ## APP
 
-The CityMe survey APP is a questionnaire interface that allows users to show information about the project and gather data in the survey, together with the[API](https://github.com/CityMe-project/CityMe-API) users can answer the survey any time and save for later, don't forget to submit.
+The CityMe survey APP is a questionnaire interface that allows users to show information about the project and gather data in the survey, together with the [API](https://github.com/CityMe-project/CityMe-API) users can answer the survey any time and save for later, don't forget to submit.
 
 ## Structure and Translation
 
