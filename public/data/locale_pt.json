@@ -1,0 +1,407 @@
+{
+	"navbar": {
+		"about": "Sobre",
+		"objectives": "Objetivos",
+		"team": "Equipa",
+		"map": "Mapa",
+		"funding": "Financiamento",
+		"outputs": "Produção",
+		"contact": "Contacto",
+		"survey": "Preencha o questionário!"
+	},
+	"home": {
+		"controller": {
+			"id": "home"
+		},
+		"title": "Mapeamento de Regiões na Cidade a partir das Perceções dos Cidadãos",
+		"subtitle": "CityMe (2022 - 2023)",
+		"buttons": [{
+			"text": "Questionário",
+			"primary": true,
+			"darkMode": false
+		},{
+			"text": "Produção",
+			"primary": true,
+			"darkMode": false
+		}],
+		"outputs":{
+			"title":"Produção",
+			"survey":"Questionário",
+			"questions": {
+				"title":"Pergunta",
+				"asTitle": "Dica",
+				"asText" : "Clique para selecionar/desselecionar todas as perguntas"
+			}
+		}
+	},
+	"about": {
+		"controller": {
+			"id": "about"
+		},
+		"style": {
+			"darkMode": true
+		},
+		"title": "CityMe",
+		"subtitle": "Mapeamento de Regiões na Cidade a partir das Perceções dos Cidadãos",
+		"content": [{
+				"type": "text",
+				"gridarea": "col1",
+				"description": "O projeto <b>CityMe</b> tem como objetivo criar uma abordagem a fim de mapear, explorar e analisar bairros oficiais e informais, regiões de interesse, distritos e outras áreas que constituem o mapa mental dos cidadãos sobre a cidade. Através da coleta de dados do nosso <b>questionário em mapa</b> e de redes sociais, podemos perceber melhor como os cidadãos racicionam espacialmente sobre regiões administrativas e não-administrativas da paisagem urbana, como freguesias, áreas residencias, bairros informais, centros histórios e áreas comerciais."
+			},
+			{
+				"type": "text",
+				"gridarea": "col2",
+				"description": "Mediante a aplicação de análises espaciais atuais, a nossa abordagem pode ser aplicada a outras cidades com o intuito de melhorar e aprimorar o planeamento urbano participativo, o envolvimento do cidadão nas políticas públicas e os projetos de cidades inteligentes. <b>CityMe</b> não se restringe somente a caracterizar diferentes tipos de regiões na cidade, mas também se compromete a contribuir para os esforços em humanizar as cidades por meio de práticas focadas no cidadão, transparentes e ascendentes em diversas aplicações no contexto da inteligência urbana"
+			}
+		]
+	},
+	"objectives": {
+		"controller": {
+			"id": "objectives"
+		},
+		"style": {
+			"darkMode": false
+		},
+		"title": "Objetivos",
+		"content": [{
+				"type": "text",
+				"gridarea": "col1",
+				"topLine": "CityMe",
+				"description": "Regiões oficiais ou informais, áreas de interesse e “bairros vernaculares” têm uma característica em comum: são representados pelas perceções e abstrações cognitivas que os moradores têm acerca da configuração espacial das suas cidades. Ao invés de depender das propriedades geométricas absolutas, os cidadãos descrevem e pensam sobre diferentes regiões através de informação espacial temática, semântica e contextual. Usaremos a cidade de Lisboa (Portugal) como nosso estudo de caso. O projeto irá assegurar a reproducibilidade para outras cidades."
+			},
+			{
+				"type": "bullets",
+				"gridarea": "col2",
+				"bullets": [
+					"disponibilizar uma interface de <b>questionário</b> em mapa",
+					"conduzir <b>análises espaciais</b> a fim de comparar e caracterizar as regiões coletas recolhidas através do questionário e de dados gerados por utilizadores em redes sociais",
+					"Avaliar os resultados do questionário com base em variáveis <b>sociodemográficas</b>",
+					"<b>Explorar</b> os resultados com base em limites administrativos, nomes oficiais, áreas de recenseamento, morfologia urbana e pontos de interesse."
+				]
+			}
+		]
+	},
+	"team": {
+		"controller": {
+			"id": "team"
+		},
+		"style": {
+			"darkMode": true
+		},
+		"title": "Equipa",
+		"persons": [{
+				"name": "Marco Painho",
+				"role": "Investigador Responsável",
+				"local": "NOVA IMS",
+				"img": "../images/team/mpainho.png",
+				"url": "https://www.novaims.unl.pt/docentes-investigacao-docentes?d=122"
+			},
+			{
+				"name": "Ana Costa",
+				"role": "Co-Investigador Responsável",
+				"local": "NOVA IMS",
+				"img": "../images/team/acosta.jpg",
+				"url": "https://www.novaims.unl.pt/lgi-docentes?d=128"
+			},
+			{
+				"name": "Pedro Cabral",
+				"role": "Investigador",
+				"local": "NOVA IMS",
+				"img": "../images/team/pcabral.png",
+				"url": "https://www.novaims.unl.pt/Docentes-Investigacao-Docentes?d=127"
+			},
+			{
+				"name": "Miguel Neto",
+				"role": "Investigador",
+				"local": "NOVA IMS",
+				"img": "../images/team/mneto.png",
+				"url": "https://www.novaims.unl.pt/docentes-investigacao-docentes?d=101"
+			},
+			{
+				"name": "Vicente Tang",
+				"role": "Investigador",
+				"local": "NOVA IMS",
+				"img": "../images/team/vtang.jfif",
+				"url": "https://www.novaims.unl.pt/geotech-corpo-docente?d=322"
+			},
+			{
+				"name": "Emanuel Papadakis",
+				"role": "Consultor Internacional",
+				"local": "University of Huddersfield",
+				"img": "../images/team/epapadakis.jpg",
+				"url": "https://pure.hud.ac.uk/en/persons/manos-papadakis"
+			}
+		]
+	},
+	"map": {
+		"controller": {
+			"id": "map"
+		},
+		"style": {
+			"darkMode": false
+		},
+		"title": "Mapa",
+		"content": [{
+				"type": "text",
+				"gridarea": "col1",
+				"topLine": "Um dos passos mais importantes do nosso projeto é a sua contribução!",
+				"description": "Se vive atualmente ou já viveu em Lisboa anteriormente, participe no nosso questionário! Através dos seus desenhos sobre a localização de bairros e regiões, irá ajudar-nos a mapear e perceber melhor a estrutura urbana tal como é percebida pelos cidadãos.",
+				"button": {
+					"text": "Preencha o questionário!",
+					"primary": true,
+					"target": "_self",
+					"url": "/survey"
+				}
+			},
+			{
+				"type": "img",
+				"gridarea": "col2",
+				"img": "../images/svg-map.svg",
+				"alt": "Mapa"
+			}
+		]
+	},
+	"funding": {
+		"controller": {
+			"id": "funding"
+		},
+		"style": {
+			"darkMode": true
+		},
+		"title": "Financiamento",
+		"content": [{
+				"type": "text",
+				"gridarea": "col2",
+				"topLine": "A FCT é a agência pública nacional para a ciência, tecnologia e inovação.",
+				"description": "Ministério da Ciência, Tecnologia e Ensino Superior",
+				"footer": "Referência do Projeto - EXPL/GES-URB/1429/2021",
+				"button": {
+					"text": "Financiamento",
+					"primary": true,
+					"url": "https://www.fct.pt/apoios/projectos/concursos/ICDT/2021.phtml.en"
+				}
+			},
+			{
+				"type": "img",
+				"gridarea": "col1",
+				"img": "../images/fundacao.png",
+				"alt": "Financiamento"
+			}
+		]
+	},
+	"outputs": {
+		"controller": {
+			"id": "outputs"
+		},
+		"style": {
+			"darkMode": false
+		},
+		"title": "Produção",
+		"content": [{
+				"type": "text",
+				"gridarea": "col1",
+				"description": "Encontre aqui as produções académicas do nosso projeto. Dados, artigos, participações em conferências e outros produtos de disseminação estarão disponíveis ao público.",
+				"buttons": []
+			},
+			{
+				"type": "img",
+				"gridarea": "col2",
+				"img": "../images/svg-outputs.svg",
+				"alt": "Produção"
+			}
+		]
+	},
+	"contact": {
+		"controller": {
+			"id": "contact"
+		},
+		"style": {
+			"darkMode": true
+		},
+		"title": "Contacto",
+		"content": [{
+				"type": "text",
+				"gridarea": "col2",
+				"description": "Para dúvidas e sugestões, problemas relacionados com ao website e ao questionário, assim como mais informações sobre o projeto, contacte:",
+				"contacts": ["painho@novaim.unl.pt", "vtang@novaims.unl.pt"]
+			},
+			{
+				"type": "img",
+				"gridarea": "col1",
+				"img": "../images/svg-contact.svg",
+				"alt": "Contacto"
+			}
+		]
+	},
+	"footer": {
+		"controller": {
+			"id": "footer"
+		},
+		"style": {
+			"darkMode": true
+		},
+		"title": "Rodapé",
+		"imgs": {
+			"novaims": {
+				"url": "https://www.novaims.unl.pt/",
+				"img": "../images/footer/novaims.png"
+			},
+			"fct": {
+				"url": "https://www.fct.pt/",
+				"img": "../images/footer/fct.png"
+			}
+		},
+		"labels": {
+			"projectReference": "Referência do Projeto",
+			"projectReferenceCode": "EXPL/GES-URB/1429/2021",
+			"projectReferenceUrl": "https://www.fct.pt/apoios/projectos/concursos/ICDT/2021.phtml.en",
+			"copyrights": "LabNT © ? All rights reserved."
+		},
+		"links": {
+			"twitter": "https://twitter.com/CityMe5",
+			"facebook": "https://www.facebook.com/NOVAIMS/",
+			"instagram": "https://www.instagram.com/nova_ims/",
+			"github": "https://github.com/CityMe-project"
+		}
+	},
+	"survey": {
+		"controller": {
+			"id": "survey"
+		},
+		"style": {
+			"darkMode": true
+		},
+		"errors": {
+			"server": "ERRO: Falha ao comunicar com o servidor.",
+			"lostsession": "Sessão perdida, faça login novamente",
+			"forminvalid": "Responda a todas as perguntas",
+			"drawinvalid": "Responda a todas as perguntas",
+			"surveysubmited": "Falha ao enviar, entre em contacto com o administrador",
+			"alreadysubmited": "As respostas já foram enviadas"
+		},
+		"controls": {
+			"btnnext": "AVANÇAR",
+			"btnback": "VOLTAR",
+			"btnexit": "SAIR",
+			"btnsubmit": "FINALIZAR",
+			"select": "Selecione..."
+		},
+		"context": {
+			"loginsuccess": "Autenticação bem-sucedida",
+			"surveysuccess": "Questionário preenchido com sucesso",
+			"surveysubmited": "Respostas enviadas, obrigado por participar!"
+		},
+		"home": [
+			{
+				"Subtitle": "<b>Olá!</b>",
+				"MainText": "<p>O seguinte questionário tem como objectivo coletar dados no âmbito do projeto de investigação CityMe, financiado pela Fundação para a Ciência e a Tecnologia. Sua contribuição é extremamente importante para a nossa investigação!</p><p>O questionário e as atividades em mapa não devem ultrapassar, juntos, os 15 minutos; porém o tempo necessário pode variar conforme às respostas.</p><p><b>Nós recomendamos que complete o questionário num computador portátil ou desktop, devido a maior facilidade de utilização e melhor desempenho da aplicação em comparação a outros aparelhos portáteis.</b></p>"
+			},
+			{
+				"Subtitle": "<b>Dados</b>",
+				"MainText": "Os dados coletados deste questionário serão tratados de forma confidencial e anónima, desprovidos de identificação pessoal. O e-mail preenchido abaixo é necessário para que participantes não respondam o questionário mais de uma vez. Uma vez que os dados coletados são destinados a atividades de investigação, não serão usados ou compartilhados com fins comerciais ou distribuídos a terceiros. Para mais informações sobre o projecto, pode conferir nosso <b><a href='https://cityme.novaims.unl.pt/' style='color:#53917E' target='_blank'>website</a></b> ou contactar algum membro da nossa equipa."
+			}
+		],
+		"login": {
+			"title": "Login",
+			"label": {
+				"email": "Email",
+				"code": "Código",
+				"enter": "Entrar"
+			}
+		},
+		"dialog": {
+			"title": "Atenção!",
+			"exit": {
+				"msubmission": "O questionário está incompleto, responda a todas as perguntas",
+				"mcode": "Ainda não respondeu a todas as perguntas",
+				"mwarning": "Se este código for perdido, não será possível terminar o questionário"
+			},
+			"label": {
+				"back": "Voltar",
+				"exit": "Sair",
+				"logout": "Logout"
+			}
+		},
+		"initialform": {
+			"checkbox": {
+				"agreement": "Li e concordo com os termos de uso dos dados.",
+				"shared_info": "Eu concordo em participar deste questionário."
+			},
+			"begin": "Preencher questionário",
+			"continue": "Continuar a preencher"
+		},
+		"draw": {
+			"handlers": {
+				"polygon": {
+					"start": "Pressione para desenhar o contorno.",
+					"cont": "Pressione para continuar.",
+					"end": "Pressione o primeiro ponto para terminar."
+				},
+				"rectangle": {
+					"start": "Pressione e arraste para desenhar um retângulo."
+				},
+				"edit": {
+					"text": "Arrraste as guias ou os marcadores para editar.",
+					"subtext": "Pressione cancelar para desfazer alterações."
+				},
+				"remove": {
+					"text": "Pressione um elemento para remover."
+				},
+				"simpleshape": {
+					"end": "Solte o botão do rato para terminar o desenho."
+				}
+			},
+			"context": {
+				"creatinggeometry": "A criar área...",
+				"geometrycreated": "Área criada!",
+				"editinggeometries": "A editar áreas",
+				"geometriesedited": "Áreas editadas!",
+				"removinggeometries": "A eliminar áreas...",
+				"geometriesremoved": "Área eliminada!",
+				"nothing": "Nada para salvar!",
+				"maxnumber": "Número máximo de áreas!"
+			},
+			"tags": {
+				"title": "Tags",
+				"innertext": "Digite e pressione enter",
+				"savebutton": "Salvar",
+				"tagsaving": "A salvar",
+				"tagsaved": "Tags salvas!",
+				"tagerror": "Erro ao salva tags!",
+				"maxnumbercharacter": "Número máximo de caracteres é 40!",
+				"notag":"sem tags preenchidas"
+			},
+			"errors": {
+				"intersect": "<strong>Oops!<strong> não pode desenhar isto!",
+				"creatinggeometry": "Erro ao criar áreas!",
+				"editinggeometries": "Erro ao editar áres!",
+				"removinggeometries": "Erro ao eliminar áreas!"
+			},
+			"geometrylist": {
+				"next": "Próxima pergunta",
+				"back": "Anterior"
+			},
+			"geometryinput": {
+				"drawpolygon": "Desenhar polígono",
+				"drawsquare": "Desenhar quadrado",
+				"editshape": "Editar contorno",
+				"deleteshape": "Eliminar contorno",
+				"save": "Salvar",
+				"cancel": "Cancelar",
+				"inputtext": "Também é possível preencher com mais informações na forma de <b style='color:#53917E'>tags</b>! Se lembra de lugares, ruas ou pontos de referência que, na sua opinião, representam ou definem esta área, informe-nos! Pode pressionar a área desenhada e adicionar tags digitando, primando enter e pressionando <b style='color:#53917E'>salvar</b>."
+			},
+			"tutorials":{
+				"polygon": "media/polygon.mp4",
+				"rectangle": "media/rectangle.mp4",
+				"edit": "media/edit.mp4",
+				"remove": "media/remove.mp4"
+			}
+		},
+		"submit": {
+			"title": "<b>Obrigado!</b>",
+			"midtext": "Sua contribução é muito valiosa para a nossa investigação!",
+			"endtext": "Se deseja nos contactar ou saber mais sobre o projeto, confira nosso website!",
+			"btntext": "Enviar e finalizar questionário"
+		}
+	}
+}
